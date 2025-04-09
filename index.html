@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zona Franjiverde</title>
+  <style>
+    body {
+      margin: 10;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .dispositivo {
+        flex-direction: column;
+      }
+    }
+
+    header {
+      background-color: green;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto;
+      gap: 20px;
+    }
+    main {
+      flex: 3;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    aside {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    article {
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+  </style>
+</head>
+<body class="dispositivo">
+  <header>
+    <h1>Zona Franjiverde</h1>
+  </header>
+
+  <div class="container">
+    <main>
+      <article>
+        <h2>Recibimiento al equipo</h2>
+        <p>Eder Sarabia, gran protagonista de la celebración.</p>
+        <a href="../zona_franjiverde/recibimiento.html"><button>Ver Noticia</button></a>
+      </article>
+      <article>
+        <h2>Elche vs Racing de Ferrol</h2>
+        <p>El Elche CF se coloca lider a 4 puntos del tercero.</p>
+      </article>
+    </main>
+    <aside>
+      <h2>Contacto</h2>
+      <p>
+        IG: @zona_franjiverde
+      </p>
+      <h2>Próximos partidos</h2>
+        <a href="../zona_franjiverde/proximos_partidos.html"><button>Ver próximos partidos</button></a>
+    </aside>
+  </div>
+
+</body>
+</html>
